@@ -1,0 +1,82 @@
+/* Monica Can, 03/25/2024 */
+/* Adapted from https://javascript30.com/ Key Sequence Detection */
+/* New addition:
+- Style form fields
+- Center a div to the body (this took the longest for some reason)
+- Hover effect for button
+*/
+body {
+    background-color: #010101;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 35em;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    padding: 0.5em 0.25em;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+}
+
+h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+label {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+#submit {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.7em 1em;
+}
+button:hover {
+    background-color: #2e2e2e;
+}
+
+input {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0.5em 0.8em;
+}

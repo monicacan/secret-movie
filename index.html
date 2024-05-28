@@ -1,0 +1,38 @@
+<!--Monica Can, 03/25/2024-->
+<!--Adapted from https://javascript30.com/ Key Sequence Detection-->
+<!--
+  New addition:
+- Add a form input field
+- Add a submit button
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="mc">
+    <meta name="date" content="03-25-2024">
+    <title>Key Detection</title>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://fav.farm/✅" />
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Guess the secret movie</h1>
+      <form class="myguess">
+        <label for="my_guess">What's your guess? (Type in lowercase only)</label><br><br>
+        <input type="text" id="my_guess" placeholder="Enter your guess">
+        <button id="submit">Submit</button>
+      </form>
+      <p>Hint: sandworm</p>
+      <div class="result-message"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
